@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../font/Roboto-Bold.ttf);
+}
+
+.center .materialboxed,
+.center-align .materialboxed {
+  margin: 0 auto;
+  position: relative !important;
+  padding-bottom: 2%;
+}
+
+.enlaces {
+  color: #000;
+  transition: all ease-in-out 0.3s;
+}
+
+.enlaces:hover {
+  color: #039BE5;
+}
+
+body {
+  scroll-behavior: smooth;  
+  background-color: #000;
+}
+
+.code {
+  font-family: 'Courier New', Courier, monospace;
+}
